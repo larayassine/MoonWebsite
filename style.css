@@ -10,7 +10,7 @@ body{
     font-size: 16px;
     line-height: 1.5em;
     color:#333;
-    background-color: #5d6b84;
+    background-color: #00020f;
 }
 
 img{
@@ -28,7 +28,7 @@ h1,h2{
 }
 
 .navbar{
-    background-color: #061227;
+    background-color: #00020f;
     color:white;
     height:60px;
 }
@@ -67,10 +67,15 @@ ul {
     margin-left:20px;
 }
 .header{
-    background-color: #4f5c73;
+    background-color:#00020f;
     color:white;
     min-height: 400px;;
+    margin-top: 5%;    margin-bottom: 10%;
 
+
+}
+#header-paragraph{
+    width:60%;
 }
 
 .header h1{
@@ -94,12 +99,12 @@ justify-content: space-between;
 .boxes .container{
     display: flex;
     justify-content: space-between;
-
+margin-bottom: 10%;
 }
 
 .box{
     flex:1;
-    background-color: #08275d;
+    background-color: #0b1525;
     line-height: 1.5rem;
     letter-spacing: 0.06rem;
     color:white;
@@ -112,6 +117,9 @@ justify-content: space-between;
 .box i {
     margin-right: 10px;
 }
+
+
+
 @media(max-width:760px){
     .header .container{
         flex-direction: column;
